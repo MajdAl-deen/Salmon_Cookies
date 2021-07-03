@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sales page</title>
+</head>
+
+<body id="sales">
+  <h1>Welcome to Pat's Salmon cookies: Sales page</h1>
+
+  <ul class="nav">
+    <a href="index.html">Home</a>
+    <a href="sales.html"> Sales page </a>
+    <a href="aboutus.html"> About us</a>
+    <a href="locations.html">Locations</a>
+  </ul>
+  <div id="salmon"></div>
+
+  <form action="submit" id="Theform">
+    <fieldset>
+      <legend>Add new City</legend>
+      <label for="NameofCity">Name of City </label>
+      <input type="text" id="NameofCity" placeholder="For example Milano" />
+      <br />
+      <label for="MaxCust">Max No. of Customer</label>
+      <input type="number" id="MaxCust" placeholder="Enter any number" />
+      <br />
+      <label for="MinCust">Min No. of Customer</label>
+      <input type="number" id="MinCust" placeholder="Enter any number" />
+      <br />
+      <label for="AvgCook">Avg No. of Cookies</label>
+      <input type="number" id="AvgCook" placeholder="Enter any number" />
+      <br />
+      <input type="submit" id="submitform" />
+    </fieldset>
+  </form>
+
+  <script src="app.js"></script>
+
+  <link rel="stylesheet" href="style.css" />
+</body>
+
+</html>
